@@ -1,3 +1,4 @@
+#!/bin/bash
 gen_password() {
     openssl rand -base64 12
 }
