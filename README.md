@@ -13,12 +13,17 @@ user_mang_account.sh: Reads employee.csv, creates system users, assigns them sec
 Project Structure :
 
 File	Description
+
 data.sh	Collects usernames and full names and appends them to employee.csv.
+
 user_mang_account.sh Reads from employee.csv and creates users with secure passwords, logging the process.
+
 employee.csv	Contains user records in the format username,fullname.
+
 logfile	Logs user creation status, errors, and assigned passwords.
 
-Prerequisites
+Prerequisites :
+
 A Linux system.
 
 Bash shell.
@@ -27,11 +32,16 @@ Must be run with root privileges for the user.sh script.
 
 openssl must be installed for password generation.
 
- Step 1: Collect User Data (data.sh)
+ Step 1:
+ 
+ Collect User Data (data.sh)
+ 
 Run the following script to input user data :
+
 ./data.sh
 
 Actions Performed:
+
 Prompts for:
 
 username
@@ -47,10 +57,13 @@ username,fullname
 Step 2:
 
 Create System Users (user_mang_account.sh)
+
 Once user data is stored in employee.csv, run the following script to create users:
 
 sudo ./user_mang_account.sh
+
 Actions Performed:
+
 Verifies the script is being run as root.
 
 Checks for the existence of employee.csv.
