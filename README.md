@@ -43,7 +43,10 @@ Asks for confirmation before saving.
 Appends the data to employee.csv in the format:
 
 username,fullname
-Step 2: Create System Users (user_mang_account.sh)
+
+Step 2:
+
+Create System Users (user_mang_account.sh)
 Once user data is stored in employee.csv, run the following script to create users:
 
 sudo ./user_mang_account.sh
