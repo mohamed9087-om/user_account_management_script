@@ -1,5 +1,9 @@
 linux user Creation Automation Script :
+
+
 Overview :
+
+
 This project automates the process of creating system users in Linux based on a CSV file containing user details. It consists of two main scripts:
 
 data.sh: Collects user input (username and full name) and stores it in employee.csv.
@@ -7,6 +11,7 @@ data.sh: Collects user input (username and full name) and stores it in employee.
 user_mang_account.sh: Reads employee.csv, creates system users, assigns them secure random passwords, and logs all actions.
 
 Project Structure :
+
 File	Description
 data.sh	Collects usernames and full names and appends them to employee.csv.
 user_mang_account.sh Reads from employee.csv and creates users with secure passwords, logging the process.
