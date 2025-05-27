@@ -28,7 +28,7 @@ A Linux system.
 
 Bash shell.
 
-Must be run with root privileges for the user.sh script.
+Must be run with root privileges for the user_mang_account.sh script.
 
 openssl must be installed for password generation.
 
@@ -37,6 +37,8 @@ openssl must be installed for password generation.
  Collect User Data (data.sh)
  
 Run the following script to input user data :
+
+chmod +x data.sh
 
 ./data.sh
 
@@ -59,6 +61,8 @@ Step 2:
 Create System Users (user_mang_account.sh)
 
 Once user data is stored in employee.csv, run the following script to create users:
+
+chmod +x user_mang_account.sh
 
 sudo ./user_mang_account.sh
 
