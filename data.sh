@@ -10,7 +10,7 @@ case $input in
 	yes | Yes )
 		echo "$info" >> employee.csv
 		echo " Your data has been stored successfully " 
-		exit 0
+		exit 1
 		;;
 	no | No )
 		exit
