@@ -4,7 +4,7 @@ read -p " Enter the full name " fullname
 
 info=$username,$fullname
 
-read -p  "Please, Confirm from data you entered. Is it correct ?[y/n]" input
+read -p  "Please, Confirm from data you entered. Is it correct ?[yes/no]" input
 
 case $input in 
 	yes | Yes )
